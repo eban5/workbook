@@ -1,0 +1,15 @@
+$color-light: white;
+
+$color-dark: #1d2227;
+
+$color-gray-dark: #282d33;
+$color-gray-medium: #393e43;
+
+$color-signal: #eb9d02;
+$color-signal-lighter: #eaac01;
+$color-signal-lightest: #f4c951;
+
+$color-background: $color-dark;
+$color-text: $color-light;
+$color-accent: $color-signal;
+$color-shadow: lighten($color-gray-medium, 40);

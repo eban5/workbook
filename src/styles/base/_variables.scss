@@ -1,0 +1,16 @@
+$size-bezel: 0.5rem;
+$size-radius: 4px;
+$line-height: 1.4;
+$font-family: "Helvetica", sans-serif;
+$font-size: calc(0.6rem + 0.4vw);
+$color: $color-text;
+$background: $color-background;
+$font-weight: 300;
+$padding: 0 calc($size-bezel * 3);
+$button-border-radius: 10px;
+
+$breakpoints: (
+  'small': 767px,
+  'medium': 992px,
+  'large': 1200px
+) !default;

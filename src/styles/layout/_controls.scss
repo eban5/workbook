@@ -1,0 +1,23 @@
+.controls {
+    background: $color-signal;
+    padding: calc(2 * $size-bezel);
+    margin-top: calc(4 * $size-bezel);
+    border-radius: $size-radius;
+    border: 3px solid $color-shadow;
+    box-shadow: 0.5rem 0.5rem 0 $color-shadow;
+}
+
+// .card:hover {
+//   cursor: pointer;
+// }
+
+// .card--inverted {
+//   --color-background: $color-dark;
+//   color: $color-light;
+//   --color-shadow: $color-accent;
+// }
+.controls--accent {
+    --color-background: $color-signal;
+    --color-accent: $color-light;
+    color: $color-dark;
+}
