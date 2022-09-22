@@ -1,0 +1,10 @@
+.preview {
+    padding: calc(2 * $size-bezel);
+    margin-top: calc(4 * $size-bezel);
+    border-radius: $size-radius;
+    border: 3px solid $color-shadow;
+    box-shadow: 0.5rem 0.5rem 0 $color-shadow;
+
+    height: $paper-height;
+    width: $paper-width;
+}

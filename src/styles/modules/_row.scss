@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 3px solid $color-gray-dark;
+    height: calc($paper-height / 10);
+    margin: 4em 2em;
+}
+
+.letter {
+    font-size: 9em;
+    line-height: 0.95;
+    height: 100%;
+    align-content: center;
+    display: flex;
+}
+
+.letter--full {
+    margin: 0.25em;
+}
+
+.letter--dashed {
+    color: lighten($color-gray-dark, 40);
+    font-weight: 100;
+    font-family: "codystar";
+    padding-bottom: 20px;
+}
+
+.center-dashed-line {
+    position: absolute;
+    border: none;
+    border-top: 4px dotted lighten($color-gray-medium, 40);
+    height: 1px;
+    width: calc($paper-width - 4.5em);
+    z-index: -1;
+}
