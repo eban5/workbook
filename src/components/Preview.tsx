@@ -1,13 +1,14 @@
-import React from "react";
 import Row from "./Row";
 
-const Preview = () => {
+const Preview = (props: { characters: string[] }) => {
+    const { characters } = props;
+
     return (
-        <>
-            {["A", "B", "C", "D", "E"].map((letter: string) => (
-                <Row character={letter} />
+        <div className="preview">
+            {characters.map((letter: string) => (
+                <Row key={letter} character={letter} />
             ))}
-        </>
+        </div>
     );
 };
 
